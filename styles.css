@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #quiz-container {
+    width: 300px;
+    text-align: center;
+  }
+  
+  #choices .choice {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  #choices .choice:hover {
+    background-color: #f0f0f0;
+  }
+  
+  #feedback {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+  }
+  
